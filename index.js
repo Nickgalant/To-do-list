@@ -6,10 +6,10 @@ const app = express();
 const port = 3000;
 
 const db = new pg.Client({
-  user: "postgres",
-  host: "localhost",
-  database: "permalist",
-  password: "0J+&wk[8a",
+  user: "permalist_11t5_user",
+  host: "dpg-cs6o1nq3esus73b67um0-a",
+  database: "permalist_11t5",
+  password: "dzXNWazAbVB430sVZWmlbpNjzsDY5zko",
   port: 5432,
 });
 
