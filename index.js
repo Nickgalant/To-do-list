@@ -11,6 +11,9 @@ const db = new pg.Client({
   database: "postgresql_ln4x",
   password: "tfMhAD8e6c7AQ75FKVw0FhXWGiMX4Bo5",
   port: 5432,
+  ssl: {
+    rejectUnauthorized: false,  // Habilita SSL sem um certificado específico
+  },
 });
 
 db.connect();
