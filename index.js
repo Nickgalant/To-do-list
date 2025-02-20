@@ -7,7 +7,7 @@ const port = 3000;
 
 const db = new pg.Client({
   user: "postgresql_ln4x_user",
-  host: "dpg-curn4a2n91rc73cu7ing-a",
+  host: "dpg-curn4a2n91rc73cu7ing-a.oregon-postgres.render.com",
   database: "postgresql_ln4x",
   password: "tfMhAD8e6c7AQ75FKVw0FhXWGiMX4Bo5",
   port: 5432,
